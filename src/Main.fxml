@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="232.0" prefWidth="269.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controls">
+   <children>
+      <Button layoutX="24.0" layoutY="147.0" mnemonicParsing="false" onAction="#three" text="3" />
+      <Button layoutX="24.0" layoutY="67.0" mnemonicParsing="false" onAction="#one" text="1" />
+      <Button layoutX="64.0" layoutY="65.0" mnemonicParsing="false" onAction="#four" text="4" />
+      <Button layoutX="24.0" layoutY="107.0" mnemonicParsing="false" onAction="#two" text="2" />
+      <TextField fx:id="text" layoutX="57.0" layoutY="22.0" prefHeight="25.0" prefWidth="156.0" />
+      <Button layoutX="64.0" layoutY="147.0" mnemonicParsing="false" onAction="#six" text="6" />
+      <Button layoutX="105.0" layoutY="65.0" mnemonicParsing="false" onAction="#seven" text="7" />
+      <Button layoutX="104.0" layoutY="147.0" mnemonicParsing="false" onAction="#nine" text="9" />
+      <Button layoutX="104.0" layoutY="107.0" mnemonicParsing="false" onAction="#eight" text="8" />
+      <Button layoutX="64.0" layoutY="107.0" mnemonicParsing="false" onAction="#five" text="5" />
+      <Button layoutX="144.0" layoutY="65.0" mnemonicParsing="false" onAction="#decimal" text="." />
+      <Button layoutX="141.0" layoutY="107.0" mnemonicParsing="false" onAction="#zero" text="0" />
+      <Button layoutX="209.0" layoutY="107.0" mnemonicParsing="false" onAction="#AC" text="AC" />
+      <Button layoutX="174.0" layoutY="65.0" mnemonicParsing="false" onAction="#mult" text="x" />
+      <Button layoutX="141.0" layoutY="147.0" mnemonicParsing="false" onAction="#equals" text="=" />
+      <Button layoutX="208.0" layoutY="65.0" mnemonicParsing="false" text="DEL" />
+      <Button layoutX="174.0" layoutY="107.0" mnemonicParsing="false" onAction="#div" text="/" />
+      <Button layoutX="212.0" layoutY="147.0" mnemonicParsing="false" onAction="#adding" text="+" />
+      <Button layoutX="178.0" layoutY="147.0" mnemonicParsing="false" onAction="#sub" text="-" />
+      <Button layoutX="25.0" layoutY="182.0" mnemonicParsing="false" text="(" />
+      <Button layoutX="65.0" layoutY="182.0" mnemonicParsing="false" text=")" />
+      <Button layoutX="126.0" layoutY="182.0" mnemonicParsing="false" text="Quadtratic Formula" />
+   </children>
+</AnchorPane>
